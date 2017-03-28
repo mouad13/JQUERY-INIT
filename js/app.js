@@ -4,6 +4,7 @@ $("#removeDiv").click(function() {
 
 });
 
+
 // Step 2
 var text = "" ;
 $("#setText").keypress(function(){
@@ -12,10 +13,8 @@ $("#setText").keypress(function(){
 });
 
 
-
-
-
-
-
-
 // Step 3
+$("#setColor").click(function(){
+	$(".yellow").css("background-color", "blue");
+	
+});
